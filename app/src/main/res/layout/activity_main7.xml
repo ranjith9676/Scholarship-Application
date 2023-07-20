@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="ifContentScrolls"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity7">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="259sp"
+        android:layout_height="40dp"
+        android:background="#00E2FF"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:overScrollMode="ifContentScrolls"
+        android:text="Please Upload Your Bank Passbook"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:layout_marginLeft="50sp"
+        tools:layout_editor_absoluteX="100sp"
+        tools:layout_editor_absoluteY="26sp"
+        android:layout_marginTop="30sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="380dp"
+        android:layout_height="250sp"
+
+        android:layout_marginTop="70sp"
+        android:layout_marginRight="0dp"
+        tools:layout_editor_absoluteX="104sp"
+        tools:layout_editor_absoluteY="100sp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Image Form Gallery"
+        tools:layout_editor_absoluteX="55sp"
+        tools:layout_editor_absoluteY="310sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="65sp"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        tools:layout_editor_absoluteX="55sp"
+        tools:layout_editor_absoluteY="310sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="100sp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="130sp"/>
+</LinearLayout>

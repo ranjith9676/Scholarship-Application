@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474098500489",
+    "project_id": "vus-app-e24f7",
+    "storage_bucket": "vus-app-e24f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474098500489:android:650af62d9c8eef94f11758",
+        "android_client_info": {
+          "package_name": "com.example.vus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474098500489-9no450rd3a6if06maf275l7t69j3pda8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT6SOUOduP59eIcLhl1Keez8xnEMztaRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474098500489-9no450rd3a6if06maf275l7t69j3pda8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

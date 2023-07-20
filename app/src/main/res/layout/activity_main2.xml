@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/image">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+
+        android:id="@+id/imageView5"
+        app:civ_border_color="#EFD707"
+        app:civ_border_width="4dp"
+        tools:srcCompat="@tools:sample/avatars"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="210dp"
+
+        android:textSize="40dp"/>
+
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="1700dp"
+        android:layout_height="430dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="250dp"
+
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="3dp"
+        app:cardMaxElevation="0dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+    <TextView
+        android:id="@+id/Rn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="200dp"
+        android:text="Reg Number"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/Rn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text=""
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="5dp"
+        android:text=""
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Branch"
+        android:textSize="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="90dp" />
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="5dp"
+        android:text=""
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Section"
+        android:textSize="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="130dp" />
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="5dp"
+        android:text=""
+        android:textSize="20dp" />
+
+
+
+    <TextView
+        android:id="@+id/ph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone no"
+        android:textSize="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="170dp" />
+    <TextView
+        android:id="@+id/ph1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="170dp" />
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year"
+        android:textSize="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="210dp" />
+    <TextView
+        android:id="@+id/y1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="5dp"
+        android:text=""
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/sem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester"
+        android:textSize="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp" />
+    <TextView
+        android:id="@+id/se1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="5dp"
+        android:text=""
+        android:textSize="20dp" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="290dp"
+        android:background="#FFFDFD"
+        android:text="'Please Verify Your Profile'"
+        android:textColor="#F40000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="19dp"
+        android:text="Next" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
